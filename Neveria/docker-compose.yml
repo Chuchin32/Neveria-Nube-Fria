@@ -26,8 +26,8 @@ services:
   db-neveria:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: "tu_password_seguro" # Cámbialo por uno real
-      MYSQL_DATABASE: "neveria_db"
+      MYSQL_ROOT_PASSWORD: "123456" # Cámbialo por uno real
+      MYSQL_DATABASE: "neveriadb"
     volumes:
       - ./mysql-data:/var/lib/mysql
     networks:
