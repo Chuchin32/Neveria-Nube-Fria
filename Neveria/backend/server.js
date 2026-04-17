@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-    host: process.env.DB_HOST || 'localhost',
+    host: process.env.DB_HOST || 'db-neveria',
     port: process.env.DB_PORT || 3306,
     user: 'root',
     password: '123456',
